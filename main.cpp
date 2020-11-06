@@ -110,7 +110,7 @@ int main(int argc, char **argv) {
     // Create an output filestream object
     ofstream myFile;
 while (run_flag){
-    myFile.open("logfile.txt", std::ios_base::app | std::ios_base::out);
+    myFile.open("/home/nvidia/code/ZED_positional_tracking/build/logfile.txt", std::ios_base::app | std::ios_base::out);
     //std::ofstream log("logfile.txt", std::ios_base::app | std::ios_base::out);
     i = 0;
     while (i < 100) {
